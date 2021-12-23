@@ -1,11 +1,16 @@
-# Remote Jobs Api
+<p align="center">
+    [![Remotive](https://remotive.io/logo)](https://remotive.io)
+    # Remote Jobs Api
+</p>
+
+
 ## _Public API listing active remote jobs from remotive.io_ 
 We're one of the largest Remote Work Community. Check out our:
 - Our Remote [Job Board](https://remotive.io)
 - Our vibrant [Slack Community](https://remotive.io/community)
 - Read our [Manifesto](https://remotive.io/manifesto)!
 
-[![Remotive](https://remotive.io/logo)](https://remotive.io)
+
 
 ## Disclaimer
 ### Terms of Services
