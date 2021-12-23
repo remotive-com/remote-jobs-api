@@ -1,10 +1,12 @@
-<p align="center">
-    [![Remotive](https://remotive.io/logo)](https://remotive.io)
-    # Remote Jobs Api
+<p align=center>
+<a href="https://remotive.io">
+<img src="https://remotive.io/logo"/>    
+</a>
 </p>
 
+# Remote Jobs Api
 
-## _Public API listing active remote jobs from remotive.io_ 
+## About remotive.io
 We're one of the largest Remote Work Community. Check out our:
 - Our Remote [Job Board](https://remotive.io)
 - Our vibrant [Slack Community](https://remotive.io/community)
