@@ -88,19 +88,8 @@ Would return a JSON response with the following format:
 ```
 
 ### Prefer using RSS Feeds?
-We've got you covered! Here are XML feeds by job categories:
-- [Sotware Development](https://remotive.io/remote-jobs/software-dev/feed)
-- [Customer service](https://remotive.io/remote-jobs/customer-support/feed)
-- [Design](https://remotive.io/remote-jobs/design/feed)
-- [Sales](https://remotive.io/remote-jobs/sales/feed)
-- [Marketing](https://remotive.io/remote-jobs/marketing/feed)
-- [Product](https://remotive.io/remote-jobs/product/feed)
-- [Business](https://remotive.io/remote-jobs/business/feed)
-- [Data](https://remotive.io/remote-jobs/data/feed)
-- [Devops/Sysadmin](https://remotive.io/remote-jobs/devops/feed)
-- [Finance/Legal](https://remotive.io/remote-jobs/finance-legal/feed)
-- [Human Resources](https://remotive.io/remote-jobs/hr/feed)
-- [QA](https://remotive.io/remote-jobs/qa/feed)
-- [Writing](https://remotive.io/remote-jobs/writing/feed)
-- [All Others](https://remotive.io/remote-jobs/all-others/feed)
+
+We've got you covered!
+
+Check out our [XML feeds](https://github.com/remotive-io/remote-jobs-feed).
 
