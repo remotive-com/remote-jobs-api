@@ -70,6 +70,8 @@ Would return a JSON response with the following format:
             "title": "Lead Developer", 
             # Name of the company which is hiring
             "company_name": "Remotive", 
+            # URL to the company logo
+            "company_logo": "https://remotive.io/job/123/logo", 
              # See https: # https://remotive.io/api/remote-jobs/categories for existing categories
             "category": "Software Development",
             # full_time/contract/part_time/freelance/internship here.It 's optional and often not filled.
