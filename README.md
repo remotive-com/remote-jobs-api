@@ -65,7 +65,7 @@ Would return a JSON response with the following format:
             # Unique Remotive ID
             "id": 123, 
             # Job listing detail url
-            "url": "https:#remotive.io/remote-jobs/product/lead-developer-123", 
+            "url": "https://remotive.io/remote-jobs/product/lead-developer-123", 
             # Job title
             "title": "Lead Developer", 
             # Name of the company which is hiring
