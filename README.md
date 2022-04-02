@@ -1,16 +1,16 @@
 <p align=center>
-<a href="https://remotive.io">
-<img src="https://remotive.io/logo"/>    
+<a href="https://remotive.com">
+<img src="https://remotive.com/logo"/>    
 </a>
 </p>
 
 # Remote Jobs Api
 
-## About remotive.io
+## About remotive.com
 We're one of the largest Remote Work Community. Check out our:
-- Our Remote [Job Board](https://remotive.io)
-- Our vibrant [Slack Community](https://remotive.io/community)
-- Read our [Manifesto](https://remotive.io/manifesto)!
+- Our Remote [Job Board](https://remotive.com)
+- Our vibrant [Slack Community](https://remotive.com/community)
+- Read our [Manifesto](https://remotive.com/manifesto)!
 
 
 
@@ -21,7 +21,7 @@ Please note that API documentation and access is granted so that developers can 
 
 **Please link back to the URL found on Remotive AND mention Remotive as a source in order to Remotive to get traffic from your listing**. If you don't do that, we'll terminate your API access, sorry! 
 
-Jobs displayed are delayed by 24 hours, the goal being that jobs are attributed to Remotive on various platforms. Displaying our jobs in order to collect signups/email addresses to show a listing constitutes a breach of our terms of services. We offer a private, paid-for API, please email us at hello(at)remotive(dot)io for more information.
+Jobs displayed are delayed by 24 hours, the goal being that jobs are attributed to Remotive on various platforms. Displaying our jobs in order to collect signups/email addresses to show a listing constitutes a breach of our terms of services. We offer a private, paid-for API, please email us at hello(at)remotive(dot)com for more information.
 
 ### Request Rate Limiting
 
@@ -35,7 +35,7 @@ Remote job listings are sorted by publication date on Remotive job board.
 
 ### URL endpoint for HTTP Request
 
-> GET [https://remotive.io/api/remote-jobs](https://remotive.io/api/remote-jobs)
+> GET [https://remotive.com/api/remote-jobs](https://remotive.com/api/remote-jobs)
 
 ### Optional Querystring Parameters
 
@@ -43,15 +43,15 @@ Following **optional** querystring parameters can be used to filter job listings
 
 | Parameter | Description | Example
 | ------ | ------ | ------ |
-| category | Retrieve jobs only for this category. Category name or category slug must be provided here. Existing categories are available at [this endoint](https://remotive.io/api/remote-jobs/categories). | https://remotive.io/api/remote-jobs?category=software-dev
-| company_name | Filter by company name. Case insensitive, partial match ('ilike') will be used here to filter job listings based on provided company name. | https://remotive.io/api/remote-jobs?company_name=remotive
-| search | Search job listing title and description. Case insensitive, partial match ('ilike') will be used here to filter job listings. | https://remotive.io/api/remote-jobs?search=front%20end
-| limit | Limit the number of job listing results (default: all). An integer must be provided. | https://remotive.io/api/remote-jobs?limit=5
+| category | Retrieve jobs only for this category. Category name or category slug must be provided here. Existing categories are available at [this endoint](https://remotive.com/api/remote-jobs/categories). | https://remotive.com/api/remote-jobs?category=software-dev
+| company_name | Filter by company name. Case insensitive, partial match ('ilike') will be used here to filter job listings based on provided company name. | https://remotive.com/api/remote-jobs?company_name=remotive
+| search | Search job listing title and description. Case insensitive, partial match ('ilike') will be used here to filter job listings. | https://remotive.com/api/remote-jobs?search=front%20end
+| limit | Limit the number of job listing results (default: all). An integer must be provided. | https://remotive.com/api/remote-jobs?limit=5
 
 ### Response
 
 For example, the following request:
-> curl 'https://remotive.io/api/remote-jobs?limit=1'
+> curl 'https://remotive.com/api/remote-jobs?limit=1'
 
 Would return a JSON response with the following format:
 ```python
@@ -65,18 +65,18 @@ Would return a JSON response with the following format:
             # Unique Remotive ID
             "id": 123, 
             # Job listing detail url
-            "url": "https://remotive.io/remote-jobs/product/lead-developer-123", 
+            "url": "https://remotive.com/remote-jobs/product/lead-developer-123", 
             # Job title
             "title": "Lead Developer", 
             # Name of the company which is hiring
             "company_name": "Remotive", 
             # URL to the company logo
-            "company_logo": "https://remotive.io/job/123/logo", 
-             # See https: # https://remotive.io/api/remote-jobs/categories for existing categories
+            "company_logo": "https://remotive.com/job/123/logo", 
+             # See https: # https://remotive.com/api/remote-jobs/categories for existing categories
             "category": "Software Development",
             # full_time/contract/part_time/freelance/internship here.It 's optional and often not filled.
             "job_type": "full_time", 
-            # Publication date and time on remotive.io
+            # Publication date and time on remotive.com
             "publication_date": "2020-02-15T10:23:26",
             # Geographical restriction for the remote candidate, if any.
             "candidate_required_location": "Worldwide", 
