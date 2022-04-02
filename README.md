@@ -1,4 +1,4 @@
-> API USER WARNING: our main domain and api endpoint has moved to remotive.com! Please update your api call to make it to https://remotive.com/api/remote-jobs
+> **API USER WARNING:** our main domain and api endpoint has moved to **remotive.com**! Please update your api call to make it to https://remotive.com/api/remote-jobs
 
 
 
